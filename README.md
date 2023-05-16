@@ -62,5 +62,25 @@ $ git push
 ```
 
 ### git pull
+o git pull é o comando git responsável por puxar todos as mudanças feitas no repositório remoto.
 
-### git branch
+## clonado uma branch
+para clonar uma branch especifica use o seguinte comando:
+```bash
+$ git clone -b <nome da branch do remoto> <url>
+```
+
+## fazer o push para a branch clonada:
+para realizar o push na branch especifica use o comando abaixo:
+```bash
+$ git push <repositório remoto> <branch local>:<branch remota>
+```
+
+para verificar como o repositório remoto esta nomeado use:
+```bash
+$ git remote
+```
+para saber a branch local use:
+```bash
+$ git branch
+```
