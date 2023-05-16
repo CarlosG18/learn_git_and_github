@@ -82,5 +82,5 @@ $ git remote
 ```
 para saber a branch local use:
 ```bash
-$ git checkout
+$ git branch
 ```
